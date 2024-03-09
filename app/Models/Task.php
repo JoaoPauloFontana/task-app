@@ -14,9 +14,4 @@ class Task extends Model
         'name',
         'description',
     ];
-
-    public function items(): HasMany
-    {
-        return $this->hasMany(Item::class);
-    }
 }
