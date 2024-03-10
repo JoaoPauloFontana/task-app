@@ -16,18 +16,6 @@ CMD
 install
 ```
 
-## Iniciando aplicação
-Execute um dos seguintes comandos na pasta raiz do projeto:
-bash
-```
-bash run.sh
-```
-ou
-CMD
-```
-run
-```
-
 ## Comandos úteis
 ```
 ./vendor/bin/sail artisan test
