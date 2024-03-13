@@ -35,3 +35,6 @@ Endereço de acesso: http://localhost:8011
  - Laravel 10
  - MySQL
  - Docker
+
+## Links úteis
+ - Documentação do postman: https://documenter.getpostman.com/view/19822036/2sA2xk1C4o
