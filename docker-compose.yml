@@ -15,7 +15,7 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_DATABASE: task
-      MYSQL_ROOT_PASSWORD: admin123
+      MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
     ports:
       - "3337:3306"
     volumes:
