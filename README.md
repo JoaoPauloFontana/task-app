@@ -3,7 +3,6 @@
  - Docker
  - Porta 8011 liberada.
  - Porta 3337 liberada para mysql.
- - Porta padrão liberada para o Redis
 
 Execute um dos seguintes comandos na pasta raiz do projeto:
 
