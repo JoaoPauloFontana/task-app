@@ -4,8 +4,12 @@
  - Porta 8011 liberada.
  - Porta 3337 liberada para mysql.
 
-Execute um dos seguintes comandos na pasta raiz do projeto:
+Clone the project:
+```
+git clone https://github.com/JoaoPauloFontana/task-app.git
+```
 
+Execute um dos seguintes comandos na pasta raiz do projeto:
 bash
 ```
 bash install.sh
