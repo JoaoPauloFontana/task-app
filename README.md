@@ -18,10 +18,10 @@ install
 
 ## Comandos úteis
 ```
-docker-compose exec laravel php artisan test
+docker-compose exec app php artisan test
 ```
 ```
-docker-compose exec laravel php artisan migrate
+docker-compose exec app php artisan migrate
 ```
 
 Endereço de acesso: http://localhost:8011
