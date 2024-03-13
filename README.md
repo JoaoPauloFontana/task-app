@@ -1,8 +1,9 @@
 ## Instalação 
 ### Requisitos
  - Docker
- - Porta 80 liberada.
- - Porta 3306 liberada para mysql.
+ - Porta 8011 liberada.
+ - Porta 3337 liberada para mysql.
+ - Porta padrão liberada para o Redis
 
 Execute um dos seguintes comandos na pasta raiz do projeto:
 
@@ -18,13 +19,13 @@ install
 
 ## Comandos úteis
 ```
-./vendor/bin/sail artisan test
+docker-compose exec laravel php artisan test
 ```
 ```
-./vendor/bin/sail artisan migrate
+docker-compose exec laravel php artisan migrate
 ```
 
-Endereço de acesso: http://localhost
+Endereço de acesso: http://localhost:8011
 
 ## Tecnologias utilizadas
  - PHP 8.3
