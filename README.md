@@ -31,5 +31,4 @@ Endereço de acesso: http://localhost:8011
  - PHP 8.3
  - Laravel 10
  - MySQL
- - Laravel Sail
  - Docker
